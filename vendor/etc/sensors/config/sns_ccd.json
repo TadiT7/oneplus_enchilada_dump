@@ -1,0 +1,37 @@
+{
+  "config": {
+    "hw_platform": ["MTP","Dragon","Surf"],
+    "soc_id": ["339"]
+  },
+  "ccd_amd": {
+    "owner": "sns_ccd",
+    "h1":  { "ver": "0","type": "int",
+             "data": "5" },
+    "h2":  { "ver": "0","type": "int",
+             "data": "50"},
+    "t1":  { "ver": "0","type": "int",
+             "data": "3" },
+    "t2":  { "ver": "0","type": "int",
+             "data": "3" }
+  },
+  "ccd_walk": {
+    "owner": "sns_ccd",
+    "xct":  { "ver": "0","type": "int",
+              "data": "10" },
+    "mls":  { "ver": "0","type": "int",
+              "data": "6" },
+    "mps":  { "ver": "0","type": "int",
+              "data": "4" },
+    "hmps": { "ver": "0","type": "int",
+              "data": "4" }
+  },
+  "ccd_tilt": {
+    "owner": "sns_ccd",
+    "wls":  { "ver": "0","type": "int",
+              "data": "20" },
+    "iwls": { "ver": "0","type": "int",
+              "data": "10" },
+    "a":    { "ver": "0","type": "int",
+              "data": "687" }
+  }
+}
