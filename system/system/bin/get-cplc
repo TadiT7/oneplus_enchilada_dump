@@ -1,0 +1,4 @@
+svc nfc enable
+sleep 6
+svc nfc get-die-id
+svc nfc get-cplc
